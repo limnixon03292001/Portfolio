@@ -10,7 +10,7 @@ module.exports = {
         fontMain: ['Montserrat', 'sans-serif'],
       },
       gridTemplateColumns:{
-        gridSkills: 'repeat(auto-fit,minmax(125px, 1fr))',
+        gridSkills: 'repeat(5,minmax(20px, 110px))',
         gridContact: 'repeat(auto-fit,minmax(227px, 1fr))',
         gridProjects: 'repeat(auto-fit,minmax(370px, 1fr))',
       }
