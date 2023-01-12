@@ -5,12 +5,13 @@ const Hero = () => {
     <div className=' h-full w-full pt-24'>
         <div className='min-h-[520px] w-full h-full flex flex-col items-start sm:items-center justify-center px-6 text-left sm:text-center relative z-30'>
             <p className='text-[#FF0077] text-2xl font-semibold'>Hello!</p>
-            <h1 className="text-white text-[44px] sm:text-5xl lg:text-6xl font-bold mt-4 leading-tight "  data-aos="fade-up">I'm Nixon Lim.</h1>
+            <h1 className="text-white text-[44px] sm:text-5xl lg:text-6xl font-bold mt-4 leading-tight "  data-aos="fade-up">I'm Nixon Lim</h1>
             <p className='text-slate-100 mt-3 text-base font-medium md:text-lg'>React JS Developer</p>
 
             <div>
-                <p className='text-slate-400 mt-6 sm:text-md lg:text-lg w-full max-w-[400px] font-medium md:text-lg self-center'>
-                    I love turning web design into a functional website using React JS.
+                <p className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mt-6
+                 sm:text-md lg:text-lg w-full max-w-[430px] font-semibold md:text-lg self-center animate-text'>
+                Passionate about creating visually-appealing and user-friendly websites with React JS
                 </p>
             </div>
            

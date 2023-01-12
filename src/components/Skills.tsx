@@ -14,15 +14,16 @@ import NixonLim from './NixonLim';
 
 const Skills = () => {
   return (
-    <div className="overflow-hidden relative ">
-         
-        <div className='bg-slate-900 relative py-8 z-20' id="skills">
+    <div className="overflow-hidden relative bg-slate ">
+        
+        <div className=' relative py-8 z-20' id="skills">
+        <div className='bg-slate-900 absolute inset-0' />
         {/* <NixonLim style={'w-auto h-full absolute top-0 bottom-0 left-0'}/> */}
         {/* <NixonLim style={'w-auto h-full absolute top-0 bottom-0 right-0 rotate-90'}/> */}
             <div className='z-20 h-full w-full max-w-[1000px] m-auto px-6 '>
                 <p className='text-[#FF0077] text-lg font-semibold uppercase mb-3 sm:text-center' data-aos="fade-right">Skills</p>
                 {/* Here are some of the technologies I frequently use. */}
-                <h1 className="text-white text-3xl lg:text-4xl font-bold sm:text-center" data-aos="fade-right" data-aos-delay="150">My Tech Stack.</h1>
+                <h1 className="text-white text-3xl lg:text-4xl font-bold sm:text-center" data-aos="fade-right" data-aos-delay="150">My Tech Stack</h1>
 
                 <div className='mt-10 z-20 text-center w-full grid grid-cols-3 sm:grid-cols-gridSkills gap-5 justify-center gap-y-3'>
                     {/* {skills?.map((skill,id) => (

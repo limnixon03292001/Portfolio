@@ -14,7 +14,7 @@ const Projects = () => {
         <div className='relative z-20 w-full max-w-[1200px] py-20 px-3 md:px-6 mx-auto text-white' id="projects">
            
             <p className='text-[#FF0077] text-lg font-semibold uppercase mb-3 text-left sm:text-center' data-aos="fade-right">Projects</p>
-            <h1 className="text-white text-3xl lg:text-4xl font-bold text-left sm:text-center" data-aos="fade-right" data-aos-delay="150">My projects.</h1>
+            <h1 className="text-white text-3xl lg:text-4xl font-bold text-left sm:text-center" data-aos="fade-right" data-aos-delay="150">My projects</h1>
 
             <div className="grid grid-cols-gridProjects gap-16 mt-16">
                 {projects?.map((project,id) => (

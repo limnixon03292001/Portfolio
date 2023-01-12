@@ -133,7 +133,7 @@ const Contact = () => {
 
         <div className='z-20 pt-20 pb-10 h-full w-full max-w-[1200px] m-auto px-6 text-center'>
             <p className='text-[#FF0077] text-lg font-semibold uppercase mb-3' data-aos="fade-up">Contact</p>
-            <h1 className="text-white text-3xl md:text-4xl font-bold" data-aos="fade-down">Contact Me.</h1>
+            <h1 className="text-white text-3xl md:text-4xl font-bold" data-aos="fade-down">Contact Me</h1>
 
             <div className='w-full'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6  mt-10'>

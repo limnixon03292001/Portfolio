@@ -37,7 +37,7 @@ export const projects = [
             },
         ],
         imageUrl: moviewHome,
-        content: 'Moview is a movie web application, fetching data from an external API called The MovieDB. I had so much fun building this website!',
+        content: 'Moview, a web application that utilizes The MovieDB API to fetch and display data, was a fulfilling experience. I enjoyed designing the project from scratch and turning it into a functional website.',
         githubLink: 'https://github.com/limnixon03292001/Moview-app',
         liveDemoLink: 'https://moview-app-iota.vercel.app/'
     },
