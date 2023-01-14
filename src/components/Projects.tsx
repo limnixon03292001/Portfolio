@@ -71,36 +71,39 @@ const pills = (tech: TechType) => {
     
     switch(tech?.tech){
         case 'React JS':
-            return <p className='text-cyan-600 bg-cyan-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
+            return <p className='text-cyan-400 bg-cyan-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
       
         case 'Tailwind CSS':
-            return <p className='text-sky-600 bg-sky-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
+            return <p className='text-sky-400 bg-sky-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
 
         case 'Module.CSS':
-            return <p className='text-lime-600 bg-lime-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
+            return <p className='text-lime-400 bg-lime-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
 
         case 'React Query':
-            return <p className='text-rose-600 bg-rose-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
+            return <p className='text-rose-400 bg-rose-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
 
         case 'Redux':
-            return <p className='text-violet-600 bg-violet-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
+            return <p className='text-violet-400 bg-violet-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
 
         case 'MongoDB':
-            return <p className='text-green-600 bg-green-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
+            return <p className='text-green-400 bg-green-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
 
         case 'PostgreSQL':
-            return <p className='text-blue-600 bg-blue-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
+            return <p className='text-blue-400 bg-blue-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
 
         case 'Express JS':
-            return  <p className='text-teal-600 bg-teal-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
+            return  <p className='text-teal-400 bg-teal-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
 
         case 'Node JS':
-            return <p className='text-emerald-600 bg-emerald-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
+            return <p className='text-emerald-400 bg-emerald-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
 
         case 'Socket.io':
-            return <p className='text-yellow-600 bg-yellow-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
+            return <p className='text-yellow-400 bg-yellow-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm font-medium'>{tech?.tech}</p>
 
         case 'CSS':
-            return <p className='text-lime-600 bg-lime-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm lfont-medium'>{tech?.tech}</p>
+            return <p className='text-lime-400 bg-lime-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm lfont-medium'>{tech?.tech}</p>
+
+        case 'Typescript':
+        return <p className='text-cyan-400 bg-cyan-400/10 py-1 px-2 rounded-full mr-2 mb-2 break-normal inline-block  text-sm lfont-medium'>{tech?.tech}</p>
     }
 }

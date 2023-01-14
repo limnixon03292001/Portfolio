@@ -11,7 +11,7 @@ import { Toaster } from 'react-hot-toast'
 
 AOS.init({
   once: true,
-  offset: 70,
+  offset: 200,
 });
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
           </div>
         </div>
 
-        <div className="z-20" >
+        <div className="z-10" >
           <Skills/>
         </div>
 

@@ -16,7 +16,7 @@ const Skills = () => {
   return (
     <div className="overflow-hidden relative bg-slate ">
         
-        <div className=' relative py-8 z-20' id="skills">
+        <div className=' relative py-8 z-10' id="skills">
         <div className='bg-slate-900 absolute inset-0' />
         {/* <NixonLim style={'w-auto h-full absolute top-0 bottom-0 left-0'}/> */}
         {/* <NixonLim style={'w-auto h-full absolute top-0 bottom-0 right-0 rotate-90'}/> */}

@@ -15,20 +15,20 @@ const Navbar = () => {
             <div className='relative'>
               <div className='hidden sm:flex flex-nowrap w-full uppercase'>
 
-                <div className='relative navSpy'>
+                <div className='relative navSpy' data-aos="fade-down" data-aos-delay="150">
                   <Link to="aboutMe" spy={true} smooth={true} offset={-140} duration={200} className='relative inline-block mx-3 py-2 cursor-pointer'>About</Link>
                 </div>
 
-                <div className='navSpy'>
+                <div className='navSpy'data-aos="fade-down" data-aos-delay="250">
                   <Link to="skills" spy={true} smooth={true} offset={-100} duration={200} 
                   className='relative inline-block mx-3 py-2 cursor-pointer'>Skills</Link>
                 </div>
 
-                <div className='navSpy'>
+                <div className='navSpy' data-aos="fade-down" data-aos-delay="350">
                   <Link to="projects" spy={true} smooth={true} offset={-100} duration={200} className='relative inline-block mx-3 py-2  cursor-pointer'>Projects</Link>
                 </div>
 
-                <div className='navSpy'>
+                <div className='navSpy' data-aos="fade-down" data-aos-delay="450">
                   <Link to="contact" spy={true} smooth={true} offset={-90} duration={200} className='relative inline-block mx-3 py-2  cursor-pointer'>Contact</Link>
                 </div>
 

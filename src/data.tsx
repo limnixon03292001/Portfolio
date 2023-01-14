@@ -21,48 +21,6 @@ import postgresql from './assets/postgresql.png';
 //Projects data
 export const projects = [
     {
-        title: 'Moview',
-        techs: [
-            {
-                tech: 'React JS',
-                color: 'cyan'
-            },
-            {
-                tech: 'Tailwind CSS',
-                color: 'sky'
-            },
-            {
-                tech: 'React Query',
-                color: 'rose'
-            },
-        ],
-        imageUrl: moviewHome,
-        content: 'Moview, a web application that utilizes The MovieDB API to fetch and display data, was a fulfilling experience. I enjoyed designing the project from scratch and turning it into a functional website.',
-        githubLink: 'https://github.com/limnixon03292001/Moview-app',
-        liveDemoLink: 'https://moview-app-iota.vercel.app/'
-    },
-    {
-        title: 'Anindex',
-        techs: [
-            {
-                tech: 'React JS',
-                color: 'cyan'
-            },
-            {
-                tech: 'CSS',
-                color: 'green'
-            },
-            {
-                tech: 'React Query',
-                color: 'rose'
-            },
-        ],
-        imageUrl: anindexHome,
-        content: 'Anindex is an anime web application, fetching data from an external API called Jikan API. This project was one of my goals to build.',
-        githubLink: 'https://github.com/limnixon03292001/Anindex',
-        liveDemoLink: 'https://anindex.vercel.app/'
-    },
-    {
         title: 'Connect',
         techs: [
             {
@@ -140,6 +98,52 @@ export const projects = [
         githubLink: 'https://github.com/limnixon03292001/planet-capstone',
         liveDemoLink: 'https://planet-capstone-production.up.railway.app/'
     },
+    {
+        title: 'Moview',
+        techs: [
+            {
+                tech: 'React JS',
+                color: 'cyan'
+            },
+            {
+                tech: 'Tailwind CSS',
+                color: 'sky'
+            },
+            {
+                tech: 'React Query',
+                color: 'rose'
+            },
+            {
+                tech: 'Typescript',
+                color: 'cyan'
+            }
+        ],
+        imageUrl: moviewHome,
+        content: 'Moview is a platform that provides information about movies using The MovieDB (TMDb) API.',
+        githubLink: 'https://github.com/limnixon03292001/Moview-app',
+        liveDemoLink: 'https://moview-app-iota.vercel.app/'
+    },
+    {
+        title: 'Anindex',
+        techs: [
+            {
+                tech: 'React JS',
+                color: 'cyan'
+            },
+            {
+                tech: 'CSS',
+                color: 'green'
+            },
+            {
+                tech: 'React Query',
+                color: 'rose'
+            },
+        ],
+        imageUrl: anindexHome,
+        content: 'Anindex is a platform that provides information about anime shows. It uses an api called Jikan API.',
+        githubLink: 'https://github.com/limnixon03292001/Anindex',
+        liveDemoLink: 'https://anindex.vercel.app/'
+    },
     // {
     //     title: 'Conn Chat',
     //     techs: [
@@ -192,9 +196,13 @@ export const projects = [
                 tech: 'Tailwind CSS',
                 color: 'sky'
             },
+            {
+                tech: 'Typescript',
+                color: 'cyan'
+            }
         ],
         imageUrl: binanceHome,
-        content: 'I built this website to enhance and practice my skills to Tailwind CSS.',
+        content: 'I created this website to improve and apply my Tailwind CSS skills.',
         githubLink: 'https://github.com/limnixon03292001/Binance-clone',
         liveDemoLink: 'https://binance-clone-pi.vercel.app/'
     },
@@ -209,9 +217,13 @@ export const projects = [
                 tech: 'CSS',
                 color: 'green'
             },
+            {
+                tech: 'Typescript',
+                color: 'cyan'
+            }
         ],
         imageUrl: todolistapp,
-        content: 'A simple todo list application, this is one of my first project in React JS. All the data are stored in local storage.',
+        content: 'A simple to-do list application, this is one of my first projects in React JS. The data is stored locally using the browsers local storage.',
         githubLink: 'https://github.com/limnixon03292001/todolist-app',
         liveDemoLink: 'https://todolist-app-phi.vercel.app/'
     },

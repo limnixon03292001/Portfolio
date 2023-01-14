@@ -11,14 +11,23 @@ const AboutMe = () => {
         <div className='pb-20 h-full w-full max-w-[1200px] m-auto px-6 z-30' data-aos="fade-up">
             <p className='text-[#FF0077] text-lg font-semibold uppercase mb-3'>About me</p>
             <h1 className="text-white text-4xl lg:text-5xl font-bold leading-tight ">Let me introduce myself</h1>
+            {/* <b className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'> */}
             <p className='text-slate-400 mt-6 text-sm lg:text-base font-medium w-full max-w-[800px] m-auto leading-relaxed sm:text-justify'>
-                Hello! My name is Nixon, an aspiring Front-end developer with a <b className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>strong desire to create visually-appealing
-                and user-friendly websites</b>. My interest in web development, started when I stumbled upon a website that caught my attention with its design and functionality.
-                From that moment on, I knew I had to learn more. I began
-                by teaching myself the basics of HTML and CSS, and I have been eager to continue learning and expanding my skills
-                since then. My desire to create visually stunning websites and my willingness to push beyond my limits, drives me 
-                to stay up to date with the latest technologies and trends. <b className='text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500'>My ultimate goal is to make a meaningful impact in the 
-                tech industry</b>.
+                <p>
+                    Hello, my name is Nixon and I am an aspiring front-end developer with a <b className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>passion for creating visually-appealing and user-friendly 
+                    websites</b>. My interest in popular social media platforms like Facebook and Twitter inspired me to pursue a career in web development. 
+                    I am endlessly fascinated by the mechanics behind these platforms and it is my ultimate goal to create my own social media platform one day.
+                </p>
+
+                <p className='mt-4'>
+                    As I honed my skills in web development, I became increasingly driven to explore and experiment, leading to the creation of my first social media platform. 
+                    My desire to create visually stunning websites and my <b className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>willingness to constantly push beyond my limits</b>, 
+                    fuels my dedication to stay up to date with the latest technologies and trends in the industry.  <b className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>
+                        My ultimate goal is to make a meaningful contribution to the tech industry and leave a lasting impact.
+                    </b>  
+                   
+                </p>
+
             </p>
             <div className='mt-6 flex gap-3 items-center max-w-fit sm:mt-6 sm:m-auto'>
                 <div className=''>
