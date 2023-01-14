@@ -35,7 +35,7 @@ const Projects = () => {
                                 ))}
                             </div>
 
-                            <p className='mt-5 text-slate-400 text-sm lg:text-base font-medium'>{project?.content}</p>
+                            <p className='mt-2 text-slate-400 text-sm lg:text-base font-medium'>{project?.content}</p>
 
                             {project?.testAccount && 
                                 <div className='text-slate-400 font-medium text-sm lg:text-base'>
