@@ -96,7 +96,7 @@ export const projects = [
             password: 'Password: 123123',
         },
         githubLink: 'https://github.com/limnixon03292001/planet-capstone',
-        liveDemoLink: 'https://planet-capstone-production.up.railway.app/'
+        liveDemoLink: 'https://planet-capstone.onrender.com/login'
     },
     {
         title: 'Moview',
