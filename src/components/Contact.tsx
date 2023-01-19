@@ -84,7 +84,7 @@ const Contact = () => {
                                     Hello! Nixon Lim here.
                                 </p>
                                 <p className="mt-1 text-xs text-slate-300">
-                                    Thank you for sending me a message. I'll reply to you as soon as possible, Thank you for having an interest!
+                                    Thank you for having an interest. Please be assured that I will respond as soon as possible. 
                                 </p>
                             </div>
                         </div>
