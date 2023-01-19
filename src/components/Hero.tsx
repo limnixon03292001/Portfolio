@@ -12,7 +12,7 @@ const Hero = () => {
             <div data-aos="fade-up" data-aos-delay="850">
                 <p className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mt-6
                  sm:text-md lg:text-lg w-full max-w-[430px] font-semibold md:text-lg self-center animate-text'>
-                Passionate about creating visually-appealing and user-friendly websites with React JS
+                    Passionate about creating visually appealing and user-friendly websites with React JS
                 </p>
             </div>
            

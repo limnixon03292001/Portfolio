@@ -49,7 +49,7 @@ export const projects = [
             },
         ],
         imageUrl: connectHome,
-        content: 'This is one of my dream project, building a social media application just like facebook. Connect is a full stack social media application. Test account below.',
+        content: 'This is one of my dream projects, building a social media just like Facebook. Connect is a full-stack social media application. Test account below.',
         testAccount: {
             email: 'Email: test123@gmail.com',
             password: 'Password: 123123',
@@ -90,7 +90,7 @@ export const projects = [
             },
         ],
         imageUrl: planetProfile,
-        content: 'An e-commerce / social media platform, that let the user sell plants, post and send a message in realtime! Test account below.',
+        content: 'An e-commerce / social media platform, that let the user sell plants, post, and send a message in real time! Test account below.',
         testAccount: {
             email: 'Email: test123@gmail.com',
             password: 'Password: 123123',
@@ -223,7 +223,7 @@ export const projects = [
             }
         ],
         imageUrl: todolistapp,
-        content: 'A simple to-do list application, this is one of my first projects in React JS. The data is stored locally using the browsers local storage.',
+        content: "A simple to-do list application, this is one of my first projects in React JS. The data is stored locally using the browser's local storage.",
         githubLink: 'https://github.com/limnixon03292001/todolist-app',
         liveDemoLink: 'https://todolist-app-phi.vercel.app/'
     },

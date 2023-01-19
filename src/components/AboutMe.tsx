@@ -22,10 +22,8 @@ const AboutMe = () => {
                 <p className='mt-4'>
                     As I honed my skills in web development, I became increasingly driven to explore and experiment, leading to the creation of my first social media platform. 
                     My desire to create visually stunning websites and my <b className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>willingness to constantly push beyond my limits</b>, 
-                    fuels my dedication to stay up to date with the latest technologies and trends in the industry.  <b className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>
-                        My ultimate goal is to make a meaningful contribution to the tech industry and leave a lasting impact.
-                    </b>  
-                   
+                    fuels my dedication to staying up to date with the latest technologies and trends. <b className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>
+                    My ultimate goal is to make a meaningful contribution to the tech industry and leave a lasting impact.</b>  
                 </p>
 
             </p>
