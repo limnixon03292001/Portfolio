@@ -15,8 +15,8 @@ const AboutMe = () => {
             <p className='text-slate-400 mt-6 text-sm lg:text-base font-medium w-full max-w-[800px] m-auto leading-relaxed sm:text-justify'>
                 <p>
                     Hello, my name is Nixon and I am an aspiring front-end developer with a <b className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>passion for creating visually-appealing and user-friendly 
-                    websites</b>. My interest in popular social media platforms like Facebook and Twitter inspired me to pursue a career in web development. 
-                    I am endlessly fascinated by the mechanics behind these platforms and it is my ultimate goal to create my own social media platform one day.
+                    websites</b>. My interest in popular social media platforms like Facebook and Twitter inspired me to learn web development. 
+                    I am endlessly fascinated by the mechanics behind these platforms, and it is my ultimate goal to create my own social media platform one day.
                 </p>
 
                 <p className='mt-4'>
