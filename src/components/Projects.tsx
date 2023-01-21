@@ -24,9 +24,20 @@ const Projects = () => {
                             <img src={project?.imageUrl} alt="" className='w-full max-w-full block object-cover rounded-lg' />
                         </div>
                         <div className='w-full text-left'>
-
+                        <div className='flex items-center'>
                             <h1 className="text-white text-3xl lg:text-4xl font-bold">{project?.title}</h1>
-
+                            {project?.inDev && 
+                                <>
+                                    <span className='mx-3 text-[6px]'>⚪</span>
+                                    <span className='bg-purple-500/10 py-1 px-3 rounded-full 
+                                        max-w-max font-medium text-sm'>
+                                        <span className='text-transparent font-bold bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 '>
+                                            In development
+                                        </span>
+                                    </span>
+                                </>
+                            }
+                        </div>
                             <div className='mt-4 w-full'>
                                 {project?.techs.map((tech,id) => (
                                     <div className='inline-block' key={id}>

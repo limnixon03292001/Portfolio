@@ -59,6 +59,7 @@ export const projects = [
     },
     {
         title: 'PLANeT',
+        inDev: true,
         techs: [
             {
                 tech: 'React JS',
