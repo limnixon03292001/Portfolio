@@ -3,6 +3,7 @@ import anindexHome from './assets/anindexHome.png';
 import binanceHome from './assets/binanceHome.png';
 import todolistapp from './assets/todolistapp.png';
 import connectHome from './assets/connectHome.png';
+import connectDemo from './assets/connect-demo.gif';
 import connchat from './assets/connchat.png';
 import planetProfile from './assets/planet-profile.png';
 
@@ -49,6 +50,7 @@ export const projects = [
             },
         ],
         imageUrl: connectHome,
+        demoGif: connectDemo,
         content: 'This is one of my dream projects, building a social media just like Facebook. Connect is a full-stack social media application. Test account below.',
         testAccount: {
             email: 'Email: test123@gmail.com',
@@ -92,10 +94,10 @@ export const projects = [
         ],
         imageUrl: planetProfile,
         content: 'An e-commerce / social media platform, that let the user sell plants, post, and send a message in real time! Test account below.',
-        testAccount: {
-            email: 'Email: test123@gmail.com',
-            password: 'Password: 123123',
-        },
+        // testAccount: {
+        //     email: 'Email: test123@gmail.com',
+        //     password: 'Password: 123123',
+        // },
         githubLink: 'https://github.com/limnixon03292001/planet-capstone',
         liveDemoLink: 'https://planet-capstone.onrender.com/login'
     },

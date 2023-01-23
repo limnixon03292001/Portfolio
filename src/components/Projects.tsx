@@ -56,8 +56,9 @@ const Projects = () => {
                             }
 
                             <div className='mt-4 flex items-center'>
+                            {!project?.inDev &&
                                 <a href={project?.liveDemoLink} target= "_blank" className='bg-[#FF0077] text-white py-2 px-4 rounded-full mr-2 flex items-center justify-center flex-nowrap max-w-max font-medium text-sm sm:text-base'><AiOutlineEye size="25"/> <span className='ml-1'>View Site</span></a>
-
+                            }
                                 <a href={project?.githubLink} target= "_blank" className='bg-[#FF0077]/10 text-[#FF0077] py-2 px-4 rounded-full flex items-center justify-center flex-nowrap max-w-max font-medium text-sm sm:text-base'><VscGithubAlt size="20"/><span className='ml-2'>Code</span></a>
                             </div>
 
